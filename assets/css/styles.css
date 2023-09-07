@@ -1,2 +1,106 @@
 
 /* css */
+.container {
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.text-box-dark,
+.text-box-medium,
+.text-box-small,
+.text-box-wide,
+.text-box-orange,
+.text-box-orange-wide,
+.text-box-red,
+.text-box-bright-left,
+.text-box-bright-right,
+.text-box-center,
+.text-box-bright-full {
+  font-weight: bold;
+  overflow: hidden;
+  padding: 0;
+  outline: none;
+  border: none; /* Ensuring no border */
+  resize: none;
+  background: transparent;
+}
+
+.text-box-dark {
+  width: 25px;
+  height: 55px;
+  position: absolute;
+  color: #531E20;
+}
+
+.text-box-medium {
+  width: 578px;
+  height: 27px;
+  position: absolute;
+  color: #B86047;
+}
+
+.text-box-small {
+  width: 25px;
+  height: 28px;
+  position: absolute;
+  color: #B86047;
+}
+
+.text-box-wide {
+  width: 756px;
+  height: 25px;
+  position: absolute;
+  color: #B86047;
+}
+
+.text-box-orange {
+  width: 704px;
+  height: 30px;
+  position: absolute;
+  color: #D68B3D;
+}
+
+.text-box-orange-wide {
+  width: 886px;
+  height: 31px;
+  position: absolute;
+  color: #D68B3D;
+}
+
+.text-box-red {
+  width: 790px;
+  height: 33px;
+  position: absolute;
+  color: #800F0C;
+}
+
+.text-box-bright-left {
+  width: 578px;
+  height: 53px;
+  position: absolute;
+  color: #FD2825;
+}
+
+.text-box-bright-right {
+  width: 537px;
+  height: 53px;
+  position: absolute;
+  color: #FD2825;
+}
+
+.text-box-center {
+  width: 283px;
+  height: 55px;
+  position: absolute;
+  color: #D39E7A;
+}
+
+.text-box-bright-full {
+  width: 1432px;
+  height: 53px;
+  position: absolute;
+  color: #FD2825;
+}
