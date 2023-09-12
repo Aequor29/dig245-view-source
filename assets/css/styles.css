@@ -23,7 +23,7 @@
   overflow: hidden;
   padding: 0;
   outline: none;
-  border: none; /* Ensuring no border */
+  border: none;
   resize: none;
   background: transparent;
 }
@@ -96,6 +96,7 @@
   height: 55px;
   position: absolute;
   color: #D39E7A;
+  font-family: 'Liu Jian Mao Cao', cursive;
 }
 
 .text-box-bright-full {
